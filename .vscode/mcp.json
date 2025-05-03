@@ -1,0 +1,22 @@
+{
+    "servers": {
+        "MCP Server for Foundry Models": {
+            "command": "pipx",
+            "args": [
+                "run",
+                "--spec",
+                "git+https://github.com/tendau/mcp-foundry.git#subdirectory=src/python",
+                "mcp-server-for-foundry-labs"
+            ]
+        },
+        "MCP Server for Foundry Labs": {
+            "command": "pipx",
+            "args": [
+                "run",
+                "--spec",
+                "git+https://github.com/tendau/mcp-foundry.git#subdirectory=src/python",
+                "mcp-server-for-foundry-models"
+            ]
+        }
+    }
+}
