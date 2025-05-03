@@ -1,0 +1,5 @@
+{
+    "name": "Foundry Labs Development Environment",
+    "image": "tendau/foundry-lab-kit:latest",
+    "remoteUser": "vscode"
+}
