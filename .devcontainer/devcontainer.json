@@ -1,5 +1,7 @@
 {
     "name": "Foundry Labs Development Environment",
-    "image": "tendau/foundry-lab-kit:latest",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
     "remoteUser": "vscode"
 }

@@ -10,9 +10,9 @@ By using this template, you'll be up and running with GitHub Copilot and connect
 
 Start building instantly:
 
-[![Use this template](https://img.shields.io/badge/-Use%20this%20template-blue?style=for-the-badge&logo=github)](https://github.com/tendau/foundrylabsagent/generate)
+[![Use this template](https://img.shields.io/badge/-Use%20this%20template-blue?style=for-the-badge&logo=github)](https://github.com/azure-ai-foundry/foundry-models-playground/generate)
 
-[![Open in GitHub Codespaces](https://img.shields.io/badge/-Open%20in%20Codespaces-lightgrey?style=for-the-badge&logo=github)](https://github.com/codespaces/new?template_repository=tendau/foundrylabsagent)
+[![Open in GitHub Codespaces](https://img.shields.io/badge/-Open%20in%20Codespaces-lightgrey?style=for-the-badge&logo=github)](https://github.com/codespaces/new?template_repository=azure-ai-foundry/foundry-models-playground/generate)
 
 ---
 
@@ -34,17 +34,21 @@ These servers are automatically started inside a devcontainer and communicate vi
 When GitHub Copilot is running in this environment, it will be equipped with the following tools — no extra config needed:
 
 ### 🔸 From Foundry Catalog
-- `get_foundry_models_list`  
+
+- `get_foundry_models_list`
+
   > Lists available models in the Foundry Catalog.
 
-- `get_implementation_details_for_foundry_model`  
+- `get_implementation_details_for_foundry_model`
   > Provides detailed integration guidance for a specific model.
 
 ### 🔹 From Foundry Labs
-- `get_azure_ai_foundry_labs_projects_list`  
+
+- `get_azure_ai_foundry_labs_projects_list`
+
   > Lists available projects from Foundry Labs.
 
-- `get_implementation_details_for_labs_project`  
+- `get_implementation_details_for_labs_project`
   > Gives implementation steps for a specific Labs project.
 
 These tools are automatically discovered by Copilot and can be used in natural language prompts while coding.
