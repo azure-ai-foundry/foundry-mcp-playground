@@ -1,6 +1,6 @@
 {
     "servers": {
-        "Azure AI Foundry Model MCP Server": {
+        "Azure AI Foundry Labs MCP Server": {
             "command": "pipx",
             "args": [
                 "run",
@@ -9,7 +9,7 @@
                 "azure-ai-foundry-labs-mcp-server"
             ]
         },
-        "Azure AI Foundry Labs MCP Server": {
+        "Azure AI Foundry Models MCP Server": {
             "command": "pipx",
             "args": [
                 "run",
