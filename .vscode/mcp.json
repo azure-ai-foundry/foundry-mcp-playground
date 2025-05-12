@@ -1,22 +1,13 @@
 {
     "servers": {
-        "Azure AI Foundry Labs MCP Server": {
+        "MCP Server for Foundry Models - new": {
             "command": "pipx",
             "args": [
                 "run",
                 "--spec",
-                "git+https://github.com/tendau/mcp-foundry.git#subdirectory=src/python",
-                "azure-ai-foundry-labs-mcp-server"
+                "git+https://github.com/dennisfeng200/mcp-foundry.git@msbuild2025",
+                "run-azure-foundry-mcp"
             ]
         },
-        "Azure AI Foundry Models MCP Server": {
-            "command": "pipx",
-            "args": [
-                "run",
-                "--spec",
-                "git+https://github.com/tendau/mcp-foundry.git#subdirectory=src/python",
-                "azure-ai-foundry-models-mcp-server"
-            ]
-        }
     }
 }
