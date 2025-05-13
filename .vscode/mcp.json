@@ -1,6 +1,6 @@
 {
     "servers": {
-        "MCP Server for Foundry Models - new": {
+        "MCP Server for Foundry Models": {
             "command": "pipx",
             "args": [
                 "run",
