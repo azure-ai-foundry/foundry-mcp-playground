@@ -16,12 +16,7 @@ Start building instantly:
 
 [![Open in GitHub Codespaces](https://img.shields.io/badge/-Open%20in%20Codespaces-blue?style=for-the-badge&logo=github)](https://github.com/codespaces/new?template_repository=azure-ai-foundry/foundry-models-playground/generate)
 
-> Click this if you like to clone and open current repository in GitHub Codespaces
-
-[![Open in VS Code](https://img.shields.io/badge/-Open%20in%20VS%20Code-blue?style=for-the-badge&logo=visualstudiocode)](vscode://dev-container/open?url=https://github.com/azure-ai-foundry/foundry-models-playground)
-
-> Click this if you like to clone and open the current repository in VS Code using the devcontainer
-
+> Click this if you like to start clean using current repository in GitHub Codespaces
 
 ---
 
