@@ -10,9 +10,18 @@ By using this template, you'll be up and running with GitHub Copilot and connect
 
 Start building instantly:
 
-[![Use this template](https://img.shields.io/badge/-Use%20this%20template-blue?style=for-the-badge&logo=github)](https://github.com/azure-ai-foundry/foundry-models-playground/generate)
+[![Use this template](https://img.shields.io/badge/-Use%20this%20template-grey?style=for-the-badge&logo=github)](https://github.com/azure-ai-foundry/foundry-models-playground/generate)
 
-[![Open in GitHub Codespaces](https://img.shields.io/badge/-Open%20in%20Codespaces-lightgrey?style=for-the-badge&logo=github)](https://github.com/codespaces/new?template_repository=azure-ai-foundry/foundry-models-playground/generate)
+> Click this if you like to create your new repository from this template
+
+[![Open in GitHub Codespaces](https://img.shields.io/badge/-Open%20in%20Codespaces-blue?style=for-the-badge&logo=github)](https://github.com/codespaces/new?template_repository=azure-ai-foundry/foundry-models-playground/generate)
+
+> Click this if you like to clone and open current repository in GitHub Codespaces
+
+[![Open in VS Code](https://img.shields.io/badge/-Open%20in%20VS%20Code-blue?style=for-the-badge&logo=visualstudiocode)](vscode://dev-container/open?url=https://github.com/azure-ai-foundry/foundry-models-playground)
+
+> Click this if you like to clone and open the current repository in VS Code using the devcontainer
+
 
 ---
 
@@ -20,36 +29,17 @@ Start building instantly:
 
 Foundry Models Playground gives you everything you need to prototype AI-based solutions **inside GitHub Copilot**.
 
-When you open this workspace, it will automatically start two backend servers:
+When you open this workspace, it will automatically start the MCP server for Azure AI Foundry:
 
-- 🔹 **Foundry Catalog MCP Server** – exposes tools to browse and integrate models from Foundry Catalog
-- 🔹 **Foundry Labs MCP Server** – lets you explore cutting-edge research projects and models by Microsoft Research from Azure AI Foundry Labs
+- **MCP Server for Azure AI Foundry** – exposes tools to interact with Azure AI Foundry
 
-These servers are automatically started inside a devcontainer and communicate via `stdio` with GitHub Copilot.
+This server is automatically started inside a devcontainer and communicate via `stdio` with GitHub Copilot.
 
 ---
 
 ## 🧰 Available Tools in GitHub Copilot
 
-When GitHub Copilot is running in this environment, it will be equipped with the following tools — no extra config needed:
-
-### 🔸 From Foundry Catalog
-
-- `get_foundry_models_list`
-
-  > Lists available models in the Foundry Catalog.
-
-- `get_implementation_details_for_foundry_model`
-  > Provides detailed integration guidance for a specific model.
-
-### 🔹 From Foundry Labs
-
-- `get_azure_ai_foundry_labs_projects_list`
-
-  > Lists available projects from Foundry Labs.
-
-- `get_implementation_details_for_labs_project`
-  > Gives implementation steps for a specific Labs project.
+When GitHub Copilot is running in this environment, it will be equipped with all the tools — no extra config needed. See [MCP Server for Azure AI Foundry](https://github.com/azure-ai-foundry/mcp-foundry) for more details.:
 
 These tools are automatically discovered by Copilot and can be used in natural language prompts while coding.
 
@@ -61,6 +51,41 @@ These tools are automatically discovered by Copilot and can be used in natural l
 2. **Open in Codespaces** or **VS Code** (with devcontainer support).
 3. Once the environment boots, open **Settings** (Ctrl+,) and search for "chat.agent.enable" and enable Agent Mode.
 4. Open Chat view (Ctrl+Alt+I) and click Use Copilot. Change to **Agent Mode** and Copilot automatically discovers the MCP Servers.
-5. To load MCP Servers, click icon "**New tools available**".
+5. To load MCP Servers, click icon "**New tools available**", if not loaded already.
 6. (Optional) you can click "**Tools**" icon on Chat view to see loaded MCP servers and tools. Also open `.vscode/mcp.json` to see preconfigured servers.
 7. Start by asking Copilot about models or guidance.
+
+## Example Prompts
+
+### Explore models
+- What can you do?
+- How can you help me find the right model?
+- What models can I use from Azure AI Foundry?
+- What OpenAI models are available in Azure AI Foundry?
+- What are the most popular models in Azure AI Foundry? Pick me 10 models.
+- What models are good for reasoning? Show me some examples in two buckets, one for large models and one for small models.
+- Can you compare Phi models and explain differences?
+- Show me the model card for Phi-4-reasoning.
+- Can you show me how to test a model?
+- What does free playground in Azure AI Foundry mean?
+- Can I use GitHub token to test models?
+- Show me latest models that support GitHub token.
+- Who are the model publishers for the models in Azure AI Foundry?
+- Show me models from Meta.
+- Show me models with MIT license.
+
+### Build prototypes
+- Can you describe how you can help me build a prototype using the model?
+- Describe how you can build a prototype that uses an OpenAI model with my GitHub token. Don't try to create one yet.
+- Recommend me a few scenarios to build prototypes with models.
+- Tell me about Azure AI Foundry Labs.
+- Tell me more about Magentic One
+- What is Omniparser and what are potential use cases?
+- Can you help me build a prototype using Omniparser?
+
+### Deploy OpenAI models
+- Can you help me deploy OpenAI models?
+- What steps do I need to take to deploy OpenAI models on Azure AI Foundry?
+- Can you help me understand how I can use OpenAI models on Azure AI Foundry using GitHub token? Can I use it for production?
+- I already have an Azure AI services resource. Can I deploy OpenAI models on it?
+- What's the quota for OpenAI models on Azure AI Foundry?
