@@ -83,4 +83,5 @@ These tools are automatically discovered by Copilot and can be used in natural l
 - What steps do I need to take to deploy OpenAI models on Azure AI Foundry?
 - Can you help me understand how I can use OpenAI models on Azure AI Foundry using GitHub token? Can I use it for production?
 - I already have an Azure AI services resource. Can I deploy OpenAI models on it?
-- What's the quota for OpenAI models on Azure AI Foundry?
+- What does quota for OpenAI models mean on Azure AI Foundry?
+- Get me current quota for my AI services resource.
