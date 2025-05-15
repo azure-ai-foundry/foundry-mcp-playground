@@ -1,5 +1,5 @@
 {
-    "name": "Foundry Labs Development Environment",
+    "name": "Foundry Models Development Environment",
     "build": {
         "dockerfile": "Dockerfile"
     },

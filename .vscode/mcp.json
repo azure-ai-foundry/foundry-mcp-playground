@@ -1,13 +1,14 @@
 {
     "servers": {
-        "MCP Server for Foundry Models": {
+        "MCP Server for Azure AI Foundry": {
             "command": "pipx",
             "args": [
                 "run",
+                "--no-cache",
                 "--spec",
                 "git+https://github.com/dennisfeng200/mcp-foundry.git@msbuild2025",
                 "run-azure-foundry-mcp"
             ]
-        },
+        }
     }
 }
