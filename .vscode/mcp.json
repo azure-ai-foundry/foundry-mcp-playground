@@ -6,8 +6,8 @@
                 "run",
                 "--no-cache",
                 "--spec",
-                "git+https://github.com/dennisfeng200/mcp-foundry.git@msbuild2025",
-                "run-azure-foundry-mcp"
+                "git+https://github.com/azure-ai-foundry/mcp-foundry.git@msbuild2025",
+                "run-azure-ai-foundry-mcp"
             ]
         }
     }
