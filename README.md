@@ -1,6 +1,6 @@
-# 🧪 Foundry Models Playground
+# 🧪 Foundry MCP Playground
 
-Welcome to **Foundry Models Playground**, your streamlined dev environment for rapidly prototyping with **state-of-the-art AI models** from [Azure AI Foundry Catalog](https://ai.azure.com/explore/models) and [Azure AI Foundry Labs](https://ai.azure.com/labs) — all without the hassels of getting set up with these resources.
+Welcome to **Foundry MCP Playground**, your streamlined dev environment for rapidly prototyping with ***MCP Server that can interact with Azure AI Foundry**, including the ability to explore and use **state-of-the-art AI models** from [Azure AI Foundry Catalog](https://ai.azure.com/explore/models) and [Azure AI Foundry Labs](https://ai.azure.com/labs), to **manage and query knowledge** and to **evaluate text and agent responses** — all without the hassels of getting set up with these resources.
 
 By using this template, you'll be up and running with GitHub Copilot and connected to powerful backend tools in just **one click**.
 
@@ -22,11 +22,11 @@ Start building instantly:
 
 ## 🧠 What’s Inside?
 
-Foundry Models Playground gives you everything you need to prototype AI-based solutions **inside GitHub Copilot**.
+Foundry MCP Playground gives you everything you need to prototype AI-based solutions **inside GitHub Copilot**.
 
 When you open this workspace, it will automatically start the MCP server for Azure AI Foundry:
 
-- **MCP Server for Azure AI Foundry** – exposes tools to interact with Azure AI Foundry
+- **MCP Server for Azure AI Foundry (experimental)** – exposes tools to interact with Azure AI Foundry
 
 This server is automatically started inside a devcontainer and communicate via `stdio` with GitHub Copilot.
 
@@ -34,7 +34,7 @@ This server is automatically started inside a devcontainer and communicate via `
 
 ## 🧰 Available Tools in GitHub Copilot
 
-When GitHub Copilot is running in this environment, it will be equipped with all the tools — no extra config needed. See [MCP Server for Azure AI Foundry](https://github.com/azure-ai-foundry/mcp-foundry) for more details.:
+When GitHub Copilot is running in this environment, it will be equipped with all the tools — no extra config needed. See [MCP Server for Azure AI Foundry (experimental)](https://github.com/azure-ai-foundry/mcp-foundry) for more details.:
 
 These tools are automatically discovered by Copilot and can be used in natural language prompts while coding.
 
@@ -48,7 +48,7 @@ These tools are automatically discovered by Copilot and can be used in natural l
 4. Open Chat view (Ctrl+Alt+I) and click Use Copilot. Change to **Agent Mode** and Copilot automatically discovers the MCP Servers.
 5. To load MCP Servers, click icon "**New tools available**", if not loaded already.
 6. (Optional) you can click "**Tools**" icon on Chat view to see loaded MCP servers and tools. Also open `.vscode/mcp.json` to see preconfigured servers.
-7. Start by asking Copilot about models or guidance.
+7. Start by asking Copilot about what it can help on Azure AI Foundry.
 
 ## Example Prompts
 
