@@ -10,11 +10,11 @@ By using this template, you'll be up and running with GitHub Copilot and connect
 
 Start building instantly:
 
-[![Use this template](https://img.shields.io/badge/-Use%20this%20template-grey?style=for-the-badge&logo=github)](https://github.com/azure-ai-foundry/foundry-models-playground/generate)
+[![Use this template](https://img.shields.io/badge/-Use%20this%20template-grey?style=for-the-badge&logo=github)](https://github.com/azure-ai-foundry/foundry-mcp-playground/generate)
 
 > Click this if you like to create your new repository from this template
 
-[![Open in GitHub Codespaces](https://img.shields.io/badge/-Open%20in%20Codespaces-blue?style=for-the-badge&logo=github)](https://github.com/codespaces/new?template_repository=azure-ai-foundry/foundry-models-playground/generate)
+[![Open in GitHub Codespaces](https://img.shields.io/badge/-Open%20in%20Codespaces-blue?style=for-the-badge&logo=github)](https://github.com/codespaces/new?template_repository=azure-ai-foundry/foundry-mcp-playground/generate)
 
 > Click this if you like to start clean using current repository in GitHub Codespaces
 
