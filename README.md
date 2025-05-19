@@ -43,12 +43,13 @@ These tools are automatically discovered by Copilot and can be used in natural l
 ## 💡 Getting Started
 
 1. **Use this template** to create your own repository. If you already did that, you can skip to the next step.
-2. **Open in Codespaces** or **VS Code** (with devcontainer support).
-3. Once the environment boots, open **Settings** (Ctrl+,) and search for "chat.agent.enable" and enable Agent Mode.
-4. Open Chat view (Ctrl+Alt+I) and click Use Copilot. Change to **Agent Mode** and Copilot automatically discovers the MCP Servers.
-5. To load MCP Servers, click icon "**New tools available**", if not loaded already.
-6. (Optional) you can click "**Tools**" icon on Chat view to see loaded MCP servers and tools. Also open `.vscode/mcp.json` to see preconfigured servers.
-7. Start by asking Copilot about what it can help on Azure AI Foundry.
+1. **Open in Codespaces** or **VS Code** (with devcontainer support).
+    1. If you use VS Code with devcontainer, you'll need Docker engine running locally.
+1. Once the environment is ready, open **Settings** (Ctrl+,) and search for "chat.agent.enable" and enable Agent Mode.
+1. Open Chat view (Ctrl+Alt+I) and click Use Copilot. Change to **Agent Mode** and Copilot automatically discovers the MCP Servers.
+1. To load MCP Servers, click icon "**New tools available**", if not loaded already.
+1. (Optional) you can click "**Tools**" icon on Chat view to see loaded MCP servers and tools. Also open `.vscode/mcp.json` to see preconfigured servers.
+1. Start by asking Copilot about what it can help on Azure AI Foundry.
 
 ## Example Prompts
 
