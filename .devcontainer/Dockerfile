@@ -6,3 +6,6 @@ RUN curl -sL https://aka.ms/InstallAzureCLIDeb | bash && \
     apt-get install -y azure-cli && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
+
+# Install uv using pipx
+RUN pipx install uv

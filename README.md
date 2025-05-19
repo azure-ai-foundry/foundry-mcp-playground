@@ -1,6 +1,6 @@
 # 🧪 Foundry MCP Playground
 
-Welcome to **Foundry MCP Playground**, your streamlined dev environment for rapidly prototyping with ***MCP Server that can interact with Azure AI Foundry**, including the ability to explore and use **state-of-the-art AI models** from [Azure AI Foundry Catalog](https://ai.azure.com/explore/models) and [Azure AI Foundry Labs](https://ai.azure.com/labs), to **manage and query knowledge** and to **evaluate text and agent responses** — all without the hassels of getting set up with these resources.
+Welcome to **Foundry MCP Playground**, your streamlined dev environment for rapidly prototyping with **MCP Server that can interact with Azure AI Foundry**, including the ability to explore and use **state-of-the-art AI models** from [Azure AI Foundry Catalog](https://ai.azure.com/explore/models) and [Azure AI Foundry Labs](https://ai.azure.com/labs), to **manage and query knowledge** and to **evaluate text and agent responses** — all without the hassels of getting set up with these resources.
 
 By using this template, you'll be up and running with GitHub Copilot and connected to powerful backend tools in just **one click**.
 
