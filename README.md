@@ -78,6 +78,8 @@ These tools are automatically discovered by Copilot and can be used in natural l
 - Tell me more about Magentic One
 - What is Omniparser and what are potential use cases?
 - Can you help me build a prototype using Omniparser?
+- I need to build an application that can analyze my web UX designs and advise me of any areas that may be difficult for users to navigate or might create a cognitive overload.
+- I'd like to build a model comparison app to compare Azure AI Foundry Catalog models. The user should be able to select from about 8-10 different catalog models. From there, the user enters a prompt, which each of the selected models will respond to. The output should be side by side. The user can also select a specific model from a set of "evaluator" models that are good at evaluation, that will evaluate the outputs of user-selected models. The evaluator should provide a short written evaluations to each models' response, as well as a numerical score.
 
 ### Deploy OpenAI models
 - Can you help me deploy OpenAI models?
