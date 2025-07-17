@@ -6,7 +6,7 @@
                 "--prerelease=allow",
                 "--no-cache",
                 "--from",
-                "git+https://github.com/azure-ai-foundry/mcp-foundry.git@msbuild2025",
+                "git+https://github.com/azure-ai-foundry/mcp-foundry.git",
                 "run-azure-ai-foundry-mcp",
                 "--envFile",
                 "${workspaceFolder}/.env"
