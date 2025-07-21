@@ -4,6 +4,9 @@ Welcome to **Foundry MCP Playground**, your streamlined dev environment for rapi
 
 By using this template, you'll be up and running with GitHub Copilot and connected to powerful backend tools in just **one click**.
 
+- [MCP Server for Azure AI Foundry](https://github.com/azure-ai-foundry/mcp-foundry): server repo
+- [Foundry MCP Playground](https://github.com/azure-ai-foundry/foundry-mcp-playground): template repo (this)
+
 ---
 
 ## 🚀 One-Click Setup
